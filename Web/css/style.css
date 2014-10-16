@@ -9,10 +9,19 @@
 	box-sizing: border-box;
 }
 
-.screenshot{
+.app {
+	display: flex;
+}
+.title {
+	
+}
+
+.screenshot;{
 	max-width: 705px;
+	padding: 15px;	
 }
 
 .description{
 	max-width: 460px;
+	padding: 15px;	
 }
