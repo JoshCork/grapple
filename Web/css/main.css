@@ -1,5 +1,5 @@
 * {
-    border: 1px solid red !important;
+    /*border: 1px solid red !important;*/
 }
 
 * {
@@ -7,6 +7,7 @@
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 
 @media only screen and (max-width: 500px) {
@@ -21,9 +22,26 @@
     width: 100%;
 }
 
+.header {
+    text-align: right;
+    font-weight: 300;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
 .row {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     display: flex;
     flex-wrap: wrap;    
 }
