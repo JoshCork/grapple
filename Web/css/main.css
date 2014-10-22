@@ -46,6 +46,14 @@
     flex-wrap: wrap;    
 }
 
+.image-circle {
+    border-radius: 50%;
+}
+
+.margin-t20 {
+    margin-top: 20px;
+}
+
 .col-1 {
     width: 8.33%;
 }
