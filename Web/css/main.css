@@ -27,6 +27,18 @@
     font-weight: 300;
 }
 
+.h1-thunder {
+    font-weight: 300;
+    font-size: 5em;
+    margin: 0px;
+}
+
+.h2-lightening {
+    font-weight: 400;
+    font-size: 1.5em;
+    margin: 0px;
+}
+
 .text-center {
     text-align: center;
 }
