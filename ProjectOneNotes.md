@@ -1,6 +1,22 @@
 ## Project 1
 In this project I'll be creating a portfolio page.
 
+### 11/4/2014 - Modal boxes
+Need to come back to this.  Moving on to fixing up my project. 
+
+
+### 11/4/2014 - more stuff to do watching the udacity engineer
+
+I combined these two things into one class he is splitting them out into many classes.
+	- DONE - Class for "title-super" -- this creates the big font
+	- DONE - Class for "text-thin"  -- this uses the thing font weight
+	- DONE - Class for "text-muted" -- this he uses for the "featured work" text
+	- DID NOT DO - Class for "title-logo"  -- this he uses to move down the logo 
+
+### 10/30/2014 - Watching engineer do this
+Stuff I haven't done and need to think about:
+	- DONE - meta tag for IE: http-quiv="X-UA-Compatible" content="IE=edge"
+	- DONE - his horizontal rule was put in it's own row in it's own div tag
 
 ### 10/20/2014
 Overflow: Auto - use this when you want to contain text in a specific element.  Example Udacity course text additions.

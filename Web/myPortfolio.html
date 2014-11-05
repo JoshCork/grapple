@@ -1,50 +1,66 @@
+<!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Bootstrap Portfolio Page</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,400,300italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/main.css">
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
+
 </head>
 
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-md-2 text-left">
-                <!-- <div class="circle">U</div> -->
-                <img class="margin-t20" src="images/udacityLogo.png" alt="my logo">
+            <div class="col-md-2 text-left margin-t20">
+                <img class="img-responsive" src="images/udacityLogo.png" alt="my logo">
             </div>
             <div class="col-md-10 text-right margin-t30 text-uppercase">
-                <div class="h1-thunder">Joshua Cork</div>
-                <div class="h2-lightening">front-end-ninja</div>
+                <div class="title-mega text-thin">Joshua Cork</div>
+                <h4>I like turtles</h4>
             </div>
         </div>
-        <hr style="border-top:5px solid; border-color: #BCBBBB" />
+        <!-- TODO: put this in it's own row and it's own 12 column div -->
         <div class="row">
             <div class="col-md-12">
-                <img class="img-responsive" src="http://placepuppy.it/992/450">
+                <hr style="border-top:5px solid; border-color: #BCBBBB" />
             </div>
         </div>
-        <div class="row  margin-t20">
+
+        <div class="row">
             <div class="col-md-12">
-                <div class="h2-rain padding-l10">Featured Work</div>
+                <img class="img-responsive" src="images/submerged.jpg" alt="a submerged turtle in someones hand.">
+            </div>
+        </div>
+        <div class="row text-right text-muted margin-b0">
+            <div class="col-md-12 margin-b0">
+                <p>photo credit: <a href="https://www.flickr.com/photos/hilighters" target="_blank">@hilighters</a></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-muted margin-t10">Featured Work</h2>
             </div>
         </div>
         <div class="row text-center">
             <div class="col-md-4">
-                <img src="http://lorempixel.com/300/200/abstract" alt="a screenshot of my app">
-                <h1>Appify</h1>
+                <img class="img-responsive" src="http://lorempixel.com/300/200/abstract" alt="a screenshot of my app">
+                <h2>Appify</h2>
                 <h4 class="url-text">https://github.com/udacity/Appify</h4>
             </div>
             <div class="col-md-4">
-                <img src="http://lorempixel.com/300/200/abstract" alt="a screenshot of my app">
-                <h1>Sunflower</h1>
-                <h4 class="url-text">https://github.com/udacity/Sunflower</h4>
+                <img class="img-responsive" src="images/i-like-turtles-kid.jpg" alt="the kid from the i like turtles meme">
+                <h2>Sunflower</h2>
+                <h4 class="url-text">Photo credit: <a href="http://s16.photobucket.com/user/BukLao00/media/turtles.jpeg.html">BukLao</a>
+                    </h4>
+                    <h4 class="url-text"><a href="https://www.youtube.com/watch?v=CMNry4PE93Y">http://youtu.be/CMNry4PE93Y</a>
+                    </h4>
             </div>
             <div class="col-md-4">
-                <img src="http://lorempixel.com/300/200/abstract" alt="a screenshot of my app">
-                <h1>Bokeh</h1>
+                <img class="img-responsive" src="http://lorempixel.com/300/200/abstract" alt="a screenshot of my app">
+                <h2>Bokeh</h2>
                 <h4 class="url-text">https://github.com/udacity/Bokey</h4>
             </div>
         </div>

@@ -6,79 +6,40 @@
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
 }
 
-.grid {
-    margin: 0 auto;
-    max-width: 1200px;
-    width: 100%;
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #747704;
 }
-/* FROM: http://stackoverflow.com/questions/16615403/css-how-to-draw-circle-with-text-in-middle */
-.circle {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    font-size: 4em;
-    color: #F8981C;
-    line-height: 100px;
-    text-align: center;
-    background: #ffffff
-}
+
 .header {
     text-align: right;
     font-weight: 300;
 }
-.h1-thunder {
-    font-weight: 100;
-    font-size: 4em;
-    margin: 0px;
-    color: #BCBBBB;
-    line-height: 1.1;
-}
-.h2-lightening {
-    font-weight: 100;
-    font-size: 1.25em;
-    margin: 0px;
-    color:#747704;
-}
-.h2-rain {
-    font-family: Lato;
-    font-size: 1.75em;
-    font-weight: 300;
-    color:#BCBBBB;    
+
+.text-thin {
+    font-weight:100;
 }
 
-.title-text {
-    font-size: 2em;
-    font-weight: 300;
-    font-color: #747704;
+.title-mega {
+    font-size: 72px;
+    line-height: 1.1;
+}
+
+.text-muted {
+    color: #BCBBBB;
 }
 
 .url-text {
     font-size: 1em;
     font-weight: 100;
-    font-color: #BCBBBB;
-}
-
-
-.text-center {
-    text-align: center;
-}
-.text-right {
-    text-align: right;
-}
-.text-left {
-    text-align: left;
-}
-
-.image-circle {
-    border-radius: 50%;
+    color: #BCBBBB;
 }
 .margin-t30 {
     margin-top: 30px;
 }
-
 .margin-t20 {
     margin-top: 20px;
 }
@@ -88,9 +49,11 @@
 .padding-l10 {
     padding-left: 10px;
 }
-.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+.margin-b0 {
+    margin-bottom: 0;
+}
+.img-responsive {
     display: block;
-    width: 100% \9;
     max-width: 100%;
     height: auto;
     margin: 0 auto;
