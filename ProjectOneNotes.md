@@ -1,6 +1,9 @@
 ## Project 1
 In this project I'll be creating a portfolio page.
 
+### 11/8/2014 - Project Submission
+I submitted my project tonight.  I also created a second branch for github pages (gh-pages).  I had to verify my email to make this work. 
+
 ### 11/4/2014 - Modal boxes
 Need to come back to this.  Moving on to fixing up my project. 
 

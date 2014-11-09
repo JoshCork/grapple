@@ -1,0 +1,1 @@
+I'm not sure exactly how branching and merging works in git.  this is a test.  I think i'm only adding this mark down file to my gh-pages branch.
