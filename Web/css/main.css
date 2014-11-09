@@ -22,6 +22,11 @@ body {
     color: #BCBBBB;
 }
 
+.snazzy-hr {
+    border-top:5px solid; 
+    border-color: #BCBBBB
+}
+
 .margin-t30 {
     margin-top: 30px;
 }
